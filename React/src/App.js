@@ -2,8 +2,8 @@ import { Box, Button, Container, TextField, Typography } from '@material-ui/core
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setAuth } from './src/public/actions/userActions';
-import Dashboard from './src/public/screens/Dashboard';
+import { setAuth } from './public/actions/userActions';
+import Dashboard from './public/screens/Dashboard';
 
 
 const useStyles = makeStyles((theme) => ({
